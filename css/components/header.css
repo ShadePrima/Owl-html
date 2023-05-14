@@ -131,6 +131,12 @@
   text-transform: uppercase;
 
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.45));
+
+  transition: transform 0.1s ease-in-out;
+}
+
+.header-button-left:active {
+  transform: translateY(3px);
 }
 
 .header-button-right {
@@ -152,6 +158,12 @@
   text-transform: uppercase;
 
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.45));
+
+  transition: transform 0.1s ease-in-out;
+}
+
+.header-button-right:active {
+  transform: translateY(3px);
 }
 
 .header-video {
