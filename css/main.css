@@ -1,0 +1,42 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Poppins:wght@600&family=Roboto:wght@400;500;700;900&family=Russo+One&display=swap');
+@import url('./components/header.css');
+
+:root {
+  /* colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-liteGray: #c2c2c2;
+  --color-midGray: #595959;
+  --color-darkGray: #262626;
+  --color-red: #df2e38;
+
+  /* fonts */
+  --font-inter: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-russo: 'Russo One', sans-serif;
+}
+
+body {
+  /* background-color: var(--color-darkGray); */
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+
+  /* background: linear-gradient(
+    94.71deg,
+    rgba(38, 38, 38, 0.49) -40.88%,
+    rgba(69, 54, 55, 0.43) 40.38%,
+    rgba(107, 25, 30, 0.47) 97.08%
+  );
+  mix-blend-mode: difference; */
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
