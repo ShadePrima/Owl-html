@@ -1,0 +1,97 @@
+.combat-path {
+  padding-top: 106px;
+}
+
+.combat-path-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.combat-path-title-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.combat-path-iconbg {
+  mix-blend-mode: color-dodge;
+  background-color: var(--color-darkGray);
+}
+
+.combat-path-icon-row {
+  position: relative;
+  top: -30px;
+  left: -111px;
+
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .combat-path-icon-row {
+    left: -180px;
+  }
+}
+
+.combat-path-title-item h1 {
+  margin-left: 12px;
+
+  font-family: var(--font-russo);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 45px;
+  color: var(--color-white);
+}
+
+.combat-path-title-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 38px;
+}
+
+.combat-path-content {
+  margin-top: 36px;
+  border-top: 1px solid var(--color-white);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 106px;
+  flex-wrap: wrap;
+}
+
+.combat-path-content-card {
+  width: 320px;
+}
+
+.combat-path-content-card img {
+  position: relative;
+  top: -18px;
+}
+
+.combat-path-content-card h3 {
+  margin-top: 20px;
+
+  font-family: var(--font-inter);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 45px;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #ff3430;
+}
+
+.combat-path-content-card p {
+  margin-top: 6px;
+
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.629167px;
+  color: var(--color-white);
+}
