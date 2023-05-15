@@ -32,6 +32,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 425px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
 .center {
   margin: 0 auto;
 }
