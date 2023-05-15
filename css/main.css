@@ -3,6 +3,7 @@
 @import url('./components/header.css');
 @import url('./components/about-us.css');
 @import url('./components/combat-path.css');
+@import url('./components/quote.css');
 
 :root {
   /* colors */

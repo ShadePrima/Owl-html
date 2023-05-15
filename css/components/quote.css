@@ -1,0 +1,23 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  min-height: 507px;
+
+  background-image: url(../../assets/background/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+.qoute-title {
+  max-width: 900px;
+  font-family: var(--font-roboto);
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.629167px;
+  color: var(--color-white);
+}
