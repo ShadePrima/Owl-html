@@ -10,11 +10,11 @@
   justify-content: space-between;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-title-item {
     width: 290px;
     position: relative;
-    left: 25px;
+    left: 5px;
   }
 }
 
@@ -32,9 +32,9 @@
   align-items: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-icon-row {
-    left: -195px;
+    left: -170px;
   }
 }
 
@@ -48,7 +48,7 @@
   color: var(--color-white);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-title-item h1 {
     font-size: 40px;
   }
@@ -62,7 +62,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-wrapper {
     padding: 0 1px;
   }
@@ -74,7 +74,7 @@
   gap: 20px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-card-row {
     justify-content: center;
   }
@@ -99,7 +99,7 @@
   border-radius: 20px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-card {
     width: 310px;
   }
@@ -114,13 +114,13 @@
   border-radius: 18px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-card-logo {
     width: 300px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-text-container {
     width: 290px;
   }
@@ -136,7 +136,7 @@
   border: 1px solid #ffffff;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .symbol-card-logo-text {
     width: 300px;
   }

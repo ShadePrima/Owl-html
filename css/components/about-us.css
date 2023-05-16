@@ -2,6 +2,12 @@
   min-height: 100vh;
 }
 
+@media (max-width: 425px) {
+  .about-us {
+    margin-left: 25px;
+  }
+}
+
 .about-us-content-row {
   max-width: 1057px;
   min-height: 310px;
