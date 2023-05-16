@@ -58,15 +58,17 @@
   border-top: 1px solid var(--color-white);
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: start;
   gap: 106px;
   flex-wrap: wrap;
 }
 
 .combat-path-card-container {
+  min-height: 636px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: end;
 }
 

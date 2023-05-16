@@ -13,6 +13,8 @@
 @media (max-width: 425px) {
   .symbol-title-item {
     width: 290px;
+    position: relative;
+    left: 25px;
   }
 }
 
@@ -70,6 +72,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+@media (max-width: 425px) {
+  .symbol-card-row {
+    justify-content: center;
+  }
 }
 
 .symbol-card {
