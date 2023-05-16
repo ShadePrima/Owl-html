@@ -6,6 +6,7 @@
 @import url('./components/quote.css');
 @import url('./components/symbol.css');
 @import url('./components/concept.css');
+@import url('./components/fond.css');
 
 :root {
   /* colors */
