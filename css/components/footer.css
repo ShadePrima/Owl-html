@@ -11,6 +11,12 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 425px) {
+  .footer-content-row {
+    justify-content: center;
+  }
+}
+
 .footer-title-item {
   max-width: 562px;
 
@@ -57,7 +63,7 @@
   }
 
   .regiment {
-    left: -48px;
+    left: -14px;
   }
 }
 
