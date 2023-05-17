@@ -42,6 +42,10 @@
   }
 }
 
+.card-short {
+  height: 880px;
+}
+
 .center {
   margin: 0 auto;
 }
