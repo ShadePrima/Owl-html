@@ -1,0 +1,28 @@
+.name-short {
+  height: 880px;
+}
+
+.qoute-page-title {
+  font-family: var(--font-russo);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: 0.629167px;
+
+  color: var(--color-white);
+}
+
+.qoute-page-text {
+  margin-top: 34px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.629167px;
+
+  color: var(--color-white);
+}
