@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Logo</title>
   </head>
@@ -14,24 +21,30 @@
         <section class="symbol">
           <div class="container">
             <div class="symbol-wrapper">
-              <div class="symbol-title-item">
-                <img
-                  class="symbol-iconbg"
-                  src="../assets/img/combat-path-title-bg-2.png"
-                  alt="Bckgraund"
-                />
-                <div class="symbol-icon-row">
+              <a href="../index.html#symbol">
+                <div class="symbol-title-item" data-aos="fade-down">
                   <img
-                    class="symbol-line"
-                    src="../assets/icons/vertical-line.svg"
-                    alt="Line"
+                    class="symbol-iconbg"
+                    src="../assets/img/combat-path-title-bg-2.png"
+                    alt="Bckgraund"
                   />
-                  <h1>Символіка</h1>
+                  <div class="symbol-icon-row">
+                    <img
+                      class="symbol-line"
+                      src="../assets/icons/vertical-line.svg"
+                      alt="Line"
+                    />
+                    <h1>Символіка</h1>
+                  </div>
                 </div>
-              </div>
+              </a>
 
               <div class="symbol-card-row">
-                <div id="logo-open-card" class="symbol-card">
+                <div
+                  id="logo-open-card"
+                  class="symbol-card"
+                  data-aos="flip-left"
+                >
                   <div class="symbol-wrapper">
                     <div class="symbol-card-logo">
                       <img src="../assets/img/symbol-logo.svg" alt="Logo" />
@@ -81,7 +94,7 @@
                   </button>
                 </div>
 
-                <div class="symbol-card card-short">
+                <div class="symbol-card card-short" data-aos="flip-left">
                   <div class="symbol-wrapper">
                     <div class="symbol-card-logo-text">
                       <h1>Ґерць</h1>
@@ -105,7 +118,7 @@
                     </div>
                   </div>
                   <button class="symbol-card-button">
-                    <a href="../pages/name-open.html#name-open-card">
+                    <a href="../pages/name-open.html">
                       <img src="../assets/icons/plus.svg" alt="Plus" />
                     </a>
                   </button>
@@ -128,5 +141,12 @@
         </section>
       </div>
     </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
