@@ -111,6 +111,12 @@
   padding: 50px;
 }
 
+@media (max-width: 425px) {
+  .swiper {
+    height: 200px;
+  }
+}
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
