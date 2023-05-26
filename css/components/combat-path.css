@@ -53,6 +53,12 @@
   gap: 38px;
 }
 
+@media (max-width: 425px) {
+  .combat-path-title-buttons {
+    display: none;
+  }
+}
+
 .combat-path-content {
   margin-top: 36px;
   border-top: 1px solid var(--color-white);
