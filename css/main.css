@@ -46,6 +46,12 @@
   height: 880px;
 }
 
+@media (max-width: 720px) {
+  .card-short {
+    height: 980px;
+  }
+}
+
 .center {
   margin: 0 auto;
 }
