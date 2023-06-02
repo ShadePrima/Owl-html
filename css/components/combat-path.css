@@ -2,6 +2,12 @@
   padding-top: 106px;
 }
 
+@media (max-width: 425px) {
+  .combat-path {
+    padding-top: 10px;
+  }
+}
+
 .combat-path-title-row {
   display: flex;
   align-items: center;
