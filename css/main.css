@@ -9,8 +9,9 @@
 @import url('./components/fond.css');
 @import url('./components/footer.css');
 @import url('./components/logo-open.css');
+@import url('./components/help.css');
 
-:root {
+:root  {
   /* colors */
   --color-white: #ffffff;
   --color-black: #000000;

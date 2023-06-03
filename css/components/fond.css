@@ -1,50 +1,58 @@
 .fond {
-}
-.fond-card {
-  margin: 99px auto 0;
-  padding: 20px 0;
-  max-width: 835px;
-  min-height: 200px;
+  margin-top: 72px;
+  padding-bottom: 72px;
 
-  background: linear-gradient(152.56deg, #461d1c 1.36%, #17201f 61.73%);
-  mix-blend-mode: screen;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  opacity: 0.4;
+}
+
+.fond-text {
+  position: relative;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 72px;
-  flex-wrap: wrap;
-}
-
-.fond-card h2 {
-  max-width: 291px;
-
-  font-family: var(--font-roboto);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 36px;
-
-  letter-spacing: 0.629167px;
-
-  color: var(--color-white);
-}
-.fond-text {
-  margin-top: 120px;
-  padding-bottom: 100px;
-
   text-align: center;
+
+  margin-top: 120px;
+  margin: 0 auto;
+
+  max-width: 719px;
+  min-height: 192px;
 
   font-family: var(--font-russo);
 
   font-weight: 400;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 60px;
 
-  text-align: center;
   letter-spacing: 0.629167px;
 
   color: var(--color-white);
+}
+
+.fond-triangle-1 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+.fond-triangle-2 {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  rotate: 90deg;
+}
+
+.fond-triangle-3 {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  rotate: 180deg;
+}
+
+.fond-triangle-4 {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  rotate: -90deg;
 }
