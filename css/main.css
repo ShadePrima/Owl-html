@@ -11,7 +11,7 @@
 @import url('./components/logo-open.css');
 @import url('./components/help.css');
 
-:root  {
+:root {
   /* colors */
   --color-white: #ffffff;
   --color-black: #000000;
@@ -84,6 +84,8 @@
 /* title above section  */
 
 .title-item {
+  max-width: 555px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -99,6 +101,7 @@
 
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .title-item h1 {
@@ -109,6 +112,76 @@
   font-size: 60px;
   line-height: 45px;
   color: var(--color-white);
+}
+
+.title-secondrow {
+  padding-left: 118px;
+
+  position: relative;
+  top: 20px;
+}
+
+/* button */
+
+.button-help {
+  width: 267px;
+  height: 70px;
+
+  background: #f7f7f7;
+  border: 1px solid #000000;
+
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 40px),
+    calc(100% - 60px) 100%,
+    0 100%
+  );
+
+  font-family: var(--font-roboto);
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+  letter-spacing: 0.629167px;
+  text-transform: uppercase;
+
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.45));
+
+  transition: transform 0.1s ease-in-out;
+}
+
+.button-help:active {
+  transform: translateY(3px);
+}
+
+.button-join {
+  width: 267px;
+  height: 70px;
+
+  background: #df2e38;
+  border: 1px solid #000000;
+
+  font-family: var(--font-roboto);
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-white);
+
+  text-align: center;
+  letter-spacing: 0.629167px;
+  text-transform: uppercase;
+
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.45));
+
+  transition: transform 0.1s ease-in-out;
+}
+
+.button-join:active {
+  transform: translateY(3px);
 }
 
 /* swiper  */
