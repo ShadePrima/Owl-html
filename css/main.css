@@ -31,8 +31,24 @@
   background-color: var(--color-darkGray);
 }
 
+.backgraund {
+  background: linear-gradient(
+    94.71deg,
+    rgba(38, 38, 38, 0.49) -40.88%,
+    rgba(69, 54, 55, 0.43) 40.38%,
+    rgba(107, 25, 30, 0.47) 97.08%
+  );
+  mix-blend-mode: difference;
+}
+
 .container {
   max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1106px;
   padding: 0 30px;
   margin: 0 auto;
 }
@@ -69,16 +85,6 @@
 
 .mt-25 {
   margin-top: 25px;
-}
-
-.backgraund {
-  background: linear-gradient(
-    94.71deg,
-    rgba(38, 38, 38, 0.49) -40.88%,
-    rgba(69, 54, 55, 0.43) 40.38%,
-    rgba(107, 25, 30, 0.47) 97.08%
-  );
-  mix-blend-mode: difference;
 }
 
 /* title above section  */
