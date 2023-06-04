@@ -1,5 +1,4 @@
 .about-us {
-  min-height: 80vh;
 }
 
 @media (max-width: 425px) {
@@ -22,50 +21,69 @@
   flex-wrap: wrap;
 }
 
-.about-us-title {
-  position: relative;
-  padding-top: 25px;
-  padding-left: 10px;
-
-  width: 195px;
-  height: 222px;
+@media (max-width: 425px) {
+  .about-us-content-row {
+    gap: 16px;
+  }
 }
 
-.about-us-iconbg {
-  opacity: 0.05;
-  mix-blend-mode: saturation;
-
-  position: absolute;
-  top: -3px;
-  left: -101px;
+.about-us-icon-row {
+  top: 24px !important;
+  left: -111px !important;
 }
 
-.about-us-line {
-  position: absolute;
-  top: 19px;
-  left: -4px;
+.about-us-title-item {
+  max-width: 284px !important;
 }
 
-.about-us-title h1 {
-  font-family: var(--font-russo);
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 50px;
-  color: var(--color-white);
-}
-
-.about-us-title h3 {
-  margin-top: 22px;
-
-  font-family: var(--font-inter);
+.mobile-about-us-title {
+  display: none;
   font-weight: 800;
   font-size: 16px;
   line-height: 25px;
+
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--color-white);
+
+  color: #ffffff;
 }
 
-.about-us-title span {
+.mobile-about-us-title h1 span {
+  color: #ff3430;
+}
+
+@media (max-width: 425px) {
+  .about-us-title-item {
+    display: none !important;
+  }
+
+  .mobile-about-us-title {
+    display: block;
+  }
+}
+
+.about-us-title-text {
+  position: relative;
+  left: 18px;
+  top: 21px;
+
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.about-us-secondrow {
+  padding-left: 0 !important;
+  top: 2px !important;
+  left: 5px !important;
+}
+
+.about-us-title-text span {
   color: #ff3430;
 }
 
@@ -79,6 +97,12 @@
   line-height: 27px;
   letter-spacing: 0.629167px;
   color: var(--color-white);
+}
+
+@media (max-width: 425px) {
+  .about-us-text {
+    min-height: 244px;
+  }
 }
 
 .about-us-slider {
@@ -101,4 +125,14 @@
   align-items: start;
   gap: 11px;
   flex-wrap: wrap;
+}
+
+@media (max-width: 425px) {
+  .button-arrow-left {
+    display: none;
+  }
+
+  .button-arrow-right {
+    display: none;
+  }
 }
