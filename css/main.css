@@ -41,6 +41,13 @@
   mix-blend-mode: difference;
 }
 
+@media (max-width: 425px) {
+  .backgraund {
+    background: linear-gradient(90deg, #1d1919 2.56%, #541e1e 100%);
+    mix-blend-mode: difference;
+  }
+}
+
 /* general css */
 .container {
   max-width: 1280px;
