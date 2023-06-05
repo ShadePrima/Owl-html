@@ -77,7 +77,11 @@
   }
 }
 
-.nav-button--active {
+.nav-button {
+  /* position: fixed;
+  top: 20px;
+  right: 10px;
+  z-index: 9; */
 }
 
 .header-nav {
@@ -140,6 +144,12 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+}
+
+@media (max-width: 425px) {
+  .header-content {
+    padding-top: 145px;
+  }
 }
 
 .header-content-title {
