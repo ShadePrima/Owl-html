@@ -23,16 +23,24 @@
     <header class="header">
       <nav class="header-nav" data-aos="fade-down">
         <div class="container">
-          <div class="header-nav-wrapper">
+          <div class="header-nav-wrapper header-nav--mobile">
             <img src="./assets/icons/header-logo.svg" alt="Logo" />
-            <div class="nav-link">
-              <a href="#">HOME</a>
-              <a href="#">ПРО НАС</a>
-              <a href="#">Бойовий шлях</a>
-              <a href="#">CИМВОЛІКА</a>
-              <a href="#">КОНЦЕПЦІЯ</a>
-              <a href="#">КОНТАКТИ</a>
+            <div id="nav" class="nav-link">
+              <a href="/">HOME</a>
+              <a href="#about-us">ПРО НАС</a>
+              <a href="#combat-path">Бойовий шлях</a>
+              <a href="#symbol">CИМВОЛІКА</a>
+              <a href="#concept">КОНЦЕПЦІЯ</a>
+              <a href="#help">КОНТАКТИ</a>
             </div>
+
+            <button id="nav-btn" class="nav-button">
+              <img
+                id="nav-btn-img"
+                src="./assets/icons/nav-open.svg"
+                alt="Nav button"
+              />
+            </button>
           </div>
         </div>
       </nav>
@@ -62,9 +70,21 @@
 
     <main class="main">
       <div class="backgraund">
-        <section class="about-us">
+        <section id="about-us" class="about-us">
           <div class="container">
             <div class="wrapper">
+              <div class="block32"></div>
+              <div class="mobile-title-item about-us-mobile-title-item">
+                <h1>Про нас</h1>
+              </div>
+
+              <div class="mobile-about-us-title">
+                <h1>
+                  Полк Спеціального <br />
+                  Призначення <span>“Герць”</span>
+                </h1>
+              </div>
+
               <div class="about-us-content-row" data-aos="fade-up">
                 <div class="title-item about-us-title-item">
                   <img
@@ -85,17 +105,6 @@
                       <span>“Герць”</span>
                     </h3>
                   </div>
-                </div>
-
-                <div class="mobile-title-item">
-                  <h1>Про нас</h1>
-                </div>
-
-                <div class="mobile-about-us-title">
-                  <h1>
-                    Полк Спеціального <br />
-                    Призначення <span>“Герць”</span>
-                  </h1>
                 </div>
 
                 <p class="about-us-text">
@@ -146,7 +155,7 @@
           </div>
         </section>
 
-        <section class="combat-path">
+        <section id="combat-path" class="combat-path">
           <div class="container">
             <div class="combat-path-title-row" data-aos="fade-up">
               <div class="combat-path-title-item">
@@ -272,7 +281,7 @@
           </div>
         </section>
 
-        <section class="quote" data-aos="fade-up">
+        <section id="quote" class="quote" data-aos="fade-up">
           <div class="container">
             <h1 class="qoute-title">
               Коли сильні особистості з твердою метою об‘єднуються — вони
@@ -370,7 +379,7 @@
           </div>
         </section>
 
-        <section class="concept">
+        <section id="concept" class="concept">
           <div class="container">
             <div class="concept-content-row">
               <div class="concept-content-column-left" data-aos="flip-left">
@@ -460,7 +469,7 @@
           </div>
         </section>
 
-        <section class="fond" data-aos="fade-up">
+        <section id="fond" class="fond" data-aos="fade-up">
           <div class="container">
             <div class="mobile-title-item">
               <h1>Допомогти підрозділу</h1>
@@ -495,7 +504,7 @@
           </div>
         </section>
 
-        <section class="help">
+        <section id="help" class="help">
           <div class="container">
             <div class="wrapper">
               <div class="title-item">
