@@ -1,9 +1,6 @@
-.about-us {
-}
-
 @media (max-width: 425px) {
   .about-us {
-    padding: 10px;
+    padding: 0;
   }
 }
 
