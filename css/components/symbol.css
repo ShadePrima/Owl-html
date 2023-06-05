@@ -2,6 +2,12 @@
   padding-top: 80px;
 }
 
+@media (max-width: 425px) {
+  .symbol {
+    padding-top: 1px;
+  }
+}
+
 .symbol-title-item {
   width: 426px;
 
@@ -102,6 +108,12 @@
 @media (max-width: 680px) {
   .symbol-card {
     width: 310px;
+  }
+}
+
+@media (max-width: 425px) {
+  .symbol-card {
+    margin-top: 32px;
   }
 }
 

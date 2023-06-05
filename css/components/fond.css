@@ -30,6 +30,12 @@
   color: var(--color-white);
 }
 
+@media (max-width: 425px) {
+  .fond-text {
+    margin-top: 72px;
+  }
+}
+
 .fond-triangle-1 {
   position: absolute;
   top: 1px;

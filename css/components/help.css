@@ -8,6 +8,13 @@
   gap: 36px;
 }
 
+@media (max-width: 425px) {
+  .help-content-row {
+    margin-top: 0;
+    gap: 72px;
+  }
+}
+
 .help-fond {
   max-width: 580px;
   min-height: 404px;
@@ -39,6 +46,12 @@
   text-align: center;
 }
 
+@media (max-width: 425px) {
+  .help-fond-title {
+    font-size: 35px;
+  }
+}
+
 .help-join {
   width: 428px;
   min-height: 411px;
@@ -68,6 +81,19 @@
 @media (max-width: 425px) {
   .help-join-image {
     left: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .help-join-image {
+    left: 29px;
+  }
+}
+
+@media (max-width: 320px) {
+  .help-join-image {
+    top: -165px;
+    left: 10px;
   }
 }
 

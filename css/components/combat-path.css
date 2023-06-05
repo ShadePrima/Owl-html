@@ -22,6 +22,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 425px) {
+  .combat-path-title-item {
+    display: none;
+  }
+}
+
 .combat-path-iconbg {
   mix-blend-mode: color-dodge;
   background-color: var(--color-darkGray);

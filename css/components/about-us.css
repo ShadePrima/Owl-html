@@ -12,7 +12,6 @@
   min-height: 310px;
 
   margin: 0 auto;
-  padding-top: 62px;
 
   display: flex;
   align-items: start;
@@ -97,6 +96,8 @@
   line-height: 27px;
   letter-spacing: 0.629167px;
   color: var(--color-white);
+
+  padding-bottom: 32px;
 }
 
 @media (max-width: 425px) {
