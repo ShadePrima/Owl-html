@@ -21,11 +21,16 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav" data-aos="fade-down">
+      <nav id="nav" class="header-nav" data-aos="fade-down">
         <div class="container">
-          <div class="header-nav-wrapper header-nav--mobile">
-            <img src="./assets/icons/header-logo.svg" alt="Logo" />
-            <div id="nav" class="nav-link">
+          <div id="nav-wrapper" class="header-nav-wrapper">
+            <img
+              class="header-logo"
+              src="./assets/icons/header-logo.svg"
+              alt="Logo"
+            />
+
+            <div id="nav-link" class="nav-link">
               <a href="/">HOME</a>
               <a href="#about-us">ПРО НАС</a>
               <a href="#combat-path">Бойовий шлях</a>
@@ -34,7 +39,7 @@
               <a href="#help">КОНТАКТИ</a>
             </div>
 
-            <button id="nav-btn" class="nav-button">
+            <button id="nav-btn" class="nav-button nav-button--active">
               <img
                 id="nav-btn-img"
                 src="./assets/icons/nav-open.svg"

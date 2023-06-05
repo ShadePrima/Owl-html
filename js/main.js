@@ -1,3 +1,27 @@
+const nav = document.querySelector('#nav')
+const navLink = document.querySelector('#nav-link')
+const navBtn = document.querySelector('#nav-btn')
+const navWrapper = document.querySelector('#nav-wrapper')
+const navBtnImg = document.querySelector('#nav-btn-img')
+
+console.log(navBtnImg)
+
+navBtn.onclick = () => {
+  if (nav.classList.toggle('open')) {
+    navBtnImg.src = './assets/icons/nav-close.svg'
+  } else {
+    navBtnImg.src = './assets/icons/nav-open.svg'
+  }
+}
+
+navLink.onclick = () => {
+  if (nav.classList.toggle('open')) {
+    navBtnImg.src = './assets/icons/nav-close.svg'
+  } else {
+    navBtnImg.src = './assets/icons/nav-open.svg'
+  }
+}
+
 AOS.init({
   disabled: 'mobile',
   once: true,
