@@ -22,6 +22,12 @@
   }
 }
 
+.nav-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
 .nav-button {
   display: none;
 }
