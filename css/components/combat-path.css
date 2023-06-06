@@ -83,11 +83,15 @@
 }
 
 .combat-path-card-container {
+  margin-top: 55px;
+
   min-height: 636px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: end;
+
+  border-top: 2px solid #fff;
 }
 
 @media (max-width: 425px) {
@@ -104,6 +108,7 @@
 .combat-path-pricel {
   position: relative;
   top: -18px;
+  left: -134px;
 
   width: 37px;
   height: 37px;

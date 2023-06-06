@@ -56,7 +56,7 @@ var swiper2 = new Swiper('.mySwiper2', {
       slidesPerView: 3,
     },
   },
-  spaceBetween: 40,
+  // spaceBetween: 40,
   grabCursor: true,
   pagination: {
     el: '.swiper-pagination',
