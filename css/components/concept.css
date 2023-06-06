@@ -2,6 +2,12 @@
   margin-top: 127px;
 }
 
+@media (max-width: 425px) {
+  .concept {
+    margin-top: 0;
+  }
+}
+
 .concept-title-item {
   max-width: 555px;
 
