@@ -165,6 +165,7 @@ ul > li {
 }
 
 .combat-path-swiper-button-left {
+  display: none;
   position: absolute;
   top: 474px;
   left: 10px;
@@ -172,9 +173,20 @@ ul > li {
 }
 
 .combat-path-swiper-button-right {
+  display: none;
   position: absolute;
   top: 474px;
   right: 10px;
   transform: rotate(180deg);
   z-index: 9;
+}
+
+@media (max-width: 425px) {
+  .combat-path-swiper-button-left {
+    display: block;
+  }
+
+  .combat-path-swiper-button-right {
+    display: block;
+  }
 }
