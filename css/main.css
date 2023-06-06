@@ -341,3 +341,15 @@
   margin-left: -39px !important;
   margin-right: 42px !important;
 }
+
+@media (max-width: 425px) {
+  .mySwiper2 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+  .swiper-wrapper2 {
+    margin-left: 10px !important;
+    margin-right: 42px !important;
+  }
+}

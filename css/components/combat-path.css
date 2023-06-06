@@ -90,6 +90,12 @@
   align-items: end;
 }
 
+@media (max-width: 425px) {
+  .combat-path-card-container {
+    align-items: center;
+  }
+}
+
 .combat-path-content-card {
   width: 300px;
   min-height: 550px;
@@ -142,4 +148,12 @@ ul > li {
 
   width: 60px;
   height: 60px;
+}
+
+@media (max-width: 425px) {
+  .combat-path-plus {
+    position: relative;
+    bottom: 47px;
+    right: -95px;
+  }
 }

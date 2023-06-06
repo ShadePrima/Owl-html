@@ -45,6 +45,17 @@ var swiper = new Swiper('.mySwiper', {
 var swiper2 = new Swiper('.mySwiper2', {
   // effect: 'flip',
   slidesPerView: 3,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 2,
+    },
+    1400: {
+      slidesPerView: 3,
+    },
+  },
   spaceBetween: 40,
   grabCursor: true,
   pagination: {
