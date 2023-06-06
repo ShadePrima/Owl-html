@@ -4,6 +4,7 @@
 
 @media (max-width: 425px) {
   .symbol {
+    display: none;
     padding-top: 1px;
   }
 }
