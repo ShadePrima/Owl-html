@@ -158,7 +158,7 @@ ul > li {
 @media (max-width: 425px) {
   .combat-path-plus {
     position: relative;
-    bottom: 47px;
+    bottom: 2px;
     right: -95px;
   }
 }
