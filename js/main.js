@@ -62,7 +62,7 @@ var swiper2 = new Swiper('.mySwiper2', {
     el: '.swiper-pagination',
   },
   navigation: {
-    nextEl: '.combat-path-title-button-left',
-    prevEl: '.combat-path-title-button-right',
+    nextEl: '.combat-path-swiper-button1',
+    prevEl: '.combat-path-swiper-button2',
   },
 })

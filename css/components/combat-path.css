@@ -1,4 +1,5 @@
 .combat-path {
+  position: relative;
   padding-top: 106px;
 }
 
@@ -161,4 +162,19 @@ ul > li {
     bottom: 2px;
     right: -95px;
   }
+}
+
+.combat-path-swiper-button-left {
+  position: absolute;
+  top: 474px;
+  left: 10px;
+  z-index: 9;
+}
+
+.combat-path-swiper-button-right {
+  position: absolute;
+  top: 474px;
+  right: 10px;
+  transform: rotate(180deg);
+  z-index: 9;
 }
