@@ -1,10 +1,10 @@
+// mobile menu
+
 const nav = document.querySelector('#nav')
 const navLink = document.querySelector('#nav-link')
 const navBtn = document.querySelector('#nav-btn')
 const navWrapper = document.querySelector('#nav-wrapper')
 const navBtnImg = document.querySelector('#nav-btn-img')
-
-console.log(navBtnImg)
 
 navBtn.onclick = () => {
   if (nav.classList.toggle('open')) {
@@ -21,6 +21,8 @@ navLink.onclick = () => {
     navBtnImg.src = './assets/icons/nav-open.svg'
   }
 }
+
+// scroll animation
 
 AOS.init({
   disabled: 'mobile',
@@ -41,13 +43,15 @@ var swiper = new Swiper('.mySwiper', {
 })
 
 var swiper2 = new Swiper('.mySwiper2', {
-  effect: 'coverflow',
+  // effect: 'flip',
+  slidesPerView: 3,
+  spaceBetween: 40,
   grabCursor: true,
   pagination: {
     el: '.swiper-pagination',
   },
   navigation: {
-    nextEl: '.button-swiper-2-left',
-    prevEl: '.button-swiper-2-right',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 })

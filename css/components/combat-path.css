@@ -98,6 +98,9 @@
 .combat-path-pricel {
   position: relative;
   top: -18px;
+
+  width: 37px;
+  height: 37px;
 }
 
 .combat-path-content-card h3 {
