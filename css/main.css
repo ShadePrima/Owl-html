@@ -353,3 +353,24 @@
     margin-right: 42px !important;
   }
 }
+
+.container-grid-bg {
+  position: relative;
+  z-index: -1;
+  mix-blend-mode: darken;
+}
+
+@media (max-width: 425px) {
+  .container-grid-bg {
+    display: none;
+  }
+}
+
+.grid {
+  position: absolute;
+  top: -1643px;
+  left: 169px;
+  z-index: 0;
+  max-width: 2164px;
+  min-height: 1267.22px;
+}

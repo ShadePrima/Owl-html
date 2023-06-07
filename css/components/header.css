@@ -81,6 +81,10 @@
 
     padding-top: 4px;
   }
+
+  .header-symbol {
+    display: none;
+  }
 }
 
 .header-nav {

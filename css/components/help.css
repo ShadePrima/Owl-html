@@ -84,9 +84,15 @@
   }
 }
 
+@media (max-width: 390px) {
+  .help-join-image {
+    left: 48px;
+  }
+}
+
 @media (max-width: 375px) {
   .help-join-image {
-    left: 29px;
+    left: 40px;
   }
 }
 
