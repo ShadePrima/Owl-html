@@ -81,6 +81,12 @@
   gap: 20px;
 }
 
+@media (max-width: 1239px) {
+  .symbol-card-row {
+    justify-content: space-around;
+  }
+}
+
 @media (max-width: 680px) {
   .symbol-card-row {
     justify-content: center;

@@ -8,6 +8,12 @@
   gap: 36px;
 }
 
+@media (max-width: 1163px) {
+  .help-content-row {
+    justify-content: space-around;
+  }
+}
+
 @media (max-width: 425px) {
   .help-content-row {
     margin-top: 0;
