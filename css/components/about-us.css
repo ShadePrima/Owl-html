@@ -21,6 +21,12 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 777px) {
+  .about-us-content-row {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 425px) {
   .about-us-content-row {
     gap: 16px;
